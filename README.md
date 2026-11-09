@@ -20,15 +20,26 @@ The system can calculate rewards in 4 different ways:
 ## Built with
 
 - ASP.NET Core MVC
-- C# / .NET 8
+- C# / .NET 10
 - Razor views
 - JSON file storage (no database)
 
 ## Running the project
 
-1. Open `AvanceretProgrammeringEksamen.sln` in Visual Studio
+Requires the .NET 10 SDK.
+
+**Command line / VS Code**
+
+```bash
+dotnet run --project AvanceretProgrammeringEksamen
+```
+
+Then open http://localhost:5084. In VS Code, install the C# Dev Kit extension and press F5.
+
+**Visual Studio**
+
+1. Open `AvanceretProgrammeringEksamen.sln`
 2. Press F5 to run
-3. Navigate to the web interface
 
 ## Testing
 
