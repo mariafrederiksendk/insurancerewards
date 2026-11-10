@@ -1,6 +1,6 @@
 # MVC-based Reward System
 
-Exam project demonstrating reward calculation for insurance sales using design patterns.
+Exam project demonstrating reward calculation for insurance sales using design patterns: Strategy and Adapter Pattern
 
 ## What it does
 
@@ -12,6 +12,7 @@ Exam project demonstrating reward calculation for insurance sales using design p
 ## Reward Strategies
 
 The system can calculate rewards in 4 different ways:
+
 1. **Sales Price** - Based on the sale amount
 2. **Customer Satisfaction** - Based on satisfaction score
 3. **Combined** - Mix of both
@@ -49,10 +50,9 @@ dotnet test
 
 ## Project Background
 
-This was my exam project for *Avanceret Programmering*, demonstrating:
+This was my exam project for _Avanceret Programmering_, demonstrating:
+
 - Strategy Pattern
 - Adapter Pattern
 - MVC architecture
 - Object-oriented programming principles
-
-**Note:** This is the original version. See [insurancerewards.dk](https://github.com/DevAsgari/insurancerewards.dk) for the improved version with .NET Web API and Vue 3.
